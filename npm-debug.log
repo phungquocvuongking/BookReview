@@ -1,0 +1,162 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'bower' ]
+2 info using npm@2.15.11
+3 info using node@v4.8.3
+4 verbose install initial load of /usr/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/lib/package.json
+6 silly cache add args [ 'bower', null ]
+7 verbose cache add spec bower
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'bower',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'bower',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed bower@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for bower
+11 info addNameTag [ 'bower', 'latest' ]
+12 silly mapToRegistry name bower
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'bower',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'bower',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/bower
+17 verbose addNameTag registry:https://registry.npmjs.org/bower not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/bower
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 3:42:55 PM
+21 verbose request id 2357f611dbccafa4
+22 verbose etag W/"594e1c2b-31520"
+23 verbose lastModified Sat, 24 Jun 2017 08:00:43 GMT
+24 http request GET https://registry.npmjs.org/bower
+25 http 304 https://registry.npmjs.org/bower
+26 verbose headers { date: 'Sat, 24 Jun 2017 08:42:56 GMT',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   'cache-control': 'max-age=300',
+26 verbose headers   etag: 'W/"594e1c2b-31520"',
+26 verbose headers   age: '0',
+26 verbose headers   connection: 'keep-alive',
+26 verbose headers   'x-served-by': 'cache-hkg6821-HKG',
+26 verbose headers   'x-cache': 'HIT',
+26 verbose headers   'x-cache-hits': '1',
+26 verbose headers   'x-timer': 'S1498293777.562614,VS0,VE201',
+26 verbose headers   vary: 'Accept-Encoding' }
+27 silly get cb [ 304,
+27 silly get   { date: 'Sat, 24 Jun 2017 08:42:56 GMT',
+27 silly get     via: '1.1 varnish',
+27 silly get     'cache-control': 'max-age=300',
+27 silly get     etag: 'W/"594e1c2b-31520"',
+27 silly get     age: '0',
+27 silly get     connection: 'keep-alive',
+27 silly get     'x-served-by': 'cache-hkg6821-HKG',
+27 silly get     'x-cache': 'HIT',
+27 silly get     'x-cache-hits': '1',
+27 silly get     'x-timer': 'S1498293777.562614,VS0,VE201',
+27 silly get     vary: 'Accept-Encoding' } ]
+28 verbose etag https://registry.npmjs.org/bower from cache
+29 verbose get saving bower to /home/vuong/.npm/registry.npmjs.org/bower/.cache.json
+30 verbose correctMkdir /home/vuong/.npm correctMkdir not in flight; initializing
+31 silly addNameTag next cb for bower with tag latest
+32 silly addNamed bower@1.8.0
+33 verbose addNamed "1.8.0" is a plain semver version for bower
+34 warn deprecated bower@1.8.0: ..psst! While Bower is maintained, we recommend Yarn and Webpack for *new* front-end projects! Yarn's advantage is security and reliability, and Webpack's is support for both CommonJS and AMD projects. Currently there's no migration path but we hope you'll help us figure out one.
+35 silly cache afterAdd bower@1.8.0
+36 verbose afterAdd /home/vuong/.npm/bower/1.8.0/package/package.json not in flight; writing
+37 verbose correctMkdir /home/vuong/.npm correctMkdir not in flight; initializing
+38 verbose afterAdd /home/vuong/.npm/bower/1.8.0/package/package.json written
+39 silly install resolved [ { name: 'bower',
+39 silly install resolved     version: '1.8.0',
+39 silly install resolved     description: 'The browser package manager',
+39 silly install resolved     author: { name: 'Twitter' },
+39 silly install resolved     license: 'MIT',
+39 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/bower/bower.git' },
+39 silly install resolved     main: 'lib',
+39 silly install resolved     bin: { bower: 'bin/bower' },
+39 silly install resolved     homepage: 'http://bower.io',
+39 silly install resolved     engines: { node: '>=0.10.0' },
+39 silly install resolved     keywords: [ 'bower' ],
+39 silly install resolved     files: [ 'bin', 'lib' ],
+39 silly install resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+39 silly install resolved     _id: 'bower@1.8.0',
+39 silly install resolved     scripts: {},
+39 silly install resolved     _shasum: '55dbebef0ad9155382d9e9d3e497c1372345b44a',
+39 silly install resolved     _from: 'bower@latest',
+39 silly install resolved     _npmVersion: '3.10.9',
+39 silly install resolved     _nodeVersion: '4.4.6',
+39 silly install resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+39 silly install resolved     dist:
+39 silly install resolved      { shasum: '55dbebef0ad9155382d9e9d3e497c1372345b44a',
+39 silly install resolved        tarball: 'https://registry.npmjs.org/bower/-/bower-1.8.0.tgz' },
+39 silly install resolved     maintainers:
+39 silly install resolved      [ [Object],
+39 silly install resolved        [Object],
+39 silly install resolved        [Object],
+39 silly install resolved        [Object],
+39 silly install resolved        [Object],
+39 silly install resolved        [Object],
+39 silly install resolved        [Object] ],
+39 silly install resolved     _npmOperationalInternal:
+39 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+39 silly install resolved        tmp: 'tmp/bower-1.8.0.tgz_1478512918020_0.7136248126626015' },
+39 silly install resolved     directories: {},
+39 silly install resolved     deprecated: '..psst! While Bower is maintained, we recommend Yarn and Webpack for *new* front-end projects! Yarn\'s advantage is security and reliability, and Webpack\'s is support for both CommonJS and AMD projects. Currently there\'s no migration path but we hope you\'ll help us figure out one.',
+39 silly install resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.8.0.tgz',
+39 silly install resolved     readme: 'ERROR: No README data found!' } ]
+40 info install bower@1.8.0 into /usr/lib
+41 info installOne bower@1.8.0
+42 verbose installOne of bower to /usr/lib not in flight; installing
+43 verbose correctMkdir /home/vuong/.npm/_locks correctMkdir not in flight; initializing
+44 verbose lock using /home/vuong/.npm/_locks/bower-f46d670cb56ecd4d.lock for /usr/lib/node_modules/bower
+45 silly install write writing bower 1.8.0 to /usr/lib/node_modules/bower
+46 verbose unbuild lib/node_modules/bower
+47 silly gentlyRm /usr/lib/node_modules/bower is being purged from base /usr
+48 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/bower
+49 verbose tar unpack /home/vuong/.npm/bower/1.8.0/package.tgz
+50 verbose tar unpacking to /usr/lib/node_modules/bower
+51 silly gentlyRm /usr/lib/node_modules/bower is being purged
+52 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/bower
+53 silly gunzTarPerm modes [ '775', '664' ]
+54 error tar.unpack untar error /home/vuong/.npm/bower/1.8.0/package.tgz
+55 verbose unlock done using /home/vuong/.npm/_locks/bower-f46d670cb56ecd4d.lock for /usr/lib/node_modules/bower
+56 verbose fstream_path /usr/lib/node_modules/bower
+57 verbose fstream_type Directory
+58 verbose fstream_class DirWriter
+59 verbose stack Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/bower'
+59 verbose stack     at Error (native)
+60 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+60 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+60 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+61 verbose cwd /home/vuong/projectB/BookReview
+62 error Linux 4.8.0-56-generic
+63 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "bower"
+64 error node v4.8.3
+65 error npm  v2.15.11
+66 error path /usr/lib/node_modules/bower
+67 error code EACCES
+68 error errno -13
+69 error syscall mkdir
+70 error Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/bower'
+70 error     at Error (native)
+70 error  { [Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/bower']
+70 error   errno: -13,
+70 error   code: 'EACCES',
+70 error   syscall: 'mkdir',
+70 error   path: '/usr/lib/node_modules/bower',
+70 error   fstream_type: 'Directory',
+70 error   fstream_path: '/usr/lib/node_modules/bower',
+70 error   fstream_class: 'DirWriter',
+70 error   fstream_stack:
+70 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+70 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+70 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+71 error Please try running this command again as root/Administrator.
+72 verbose exit [ -13, true ]
+73 verbose unbuild lib/node_modules/bower
+74 silly gentlyRm /usr/lib/node_modules/bower is being purged from base /usr
+75 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/bower
